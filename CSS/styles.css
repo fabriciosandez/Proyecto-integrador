@@ -4,7 +4,7 @@
   font-family: "DM Sans", sans-serif;
 }
 
-/*** NAVBAR ***/
+/***** NAVBAR *****/
 
 nav {
   height: 75px;
@@ -34,7 +34,11 @@ nav {
   margin-right: 200px;
 }
 
-/*** HEADER ***/
+#nav-button:hover {
+  background-color: #7749f8;
+}
+
+/***** HEADER *****/
 
 .header {
   background-image: url(../Images/manos.jpg);
@@ -67,7 +71,7 @@ header h1 {
   padding-bottom: 15px;
 }
 
-/*** MODAL ***/
+/***** MODAL *****/
 
 #modal-content-container {
   flex-direction: row;
@@ -152,7 +156,8 @@ header h1 {
   color: white;
   background-color: #5298ff;
   filter: drop-shadow(0 0 6px #333);
-} 
+}
+
 
 #modal-button-org {
   display: flex;
@@ -206,127 +211,15 @@ header h1 {
   padding-right: 15px;
 }
 
-/*** FOOTER ***/
-
-.footer-contact {
-  background-color: #fafafa;
-  display: flex;
-  padding-bottom: 200px;
-  padding-top: 80px;
-  height: 430px;
-  border-bottom: solid 6px #5227cc;
-  justify-content: center;
-}
-
-.footer-contact-image {
-  background-image: url(../Images/laptop-escritorio.jpg);
-  width: 640px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  height: 210px;
-  margin-right: 20px;
-}
-
-.footer-contact-form {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  width: 640px;
-}
-
-.footer-form {
-  text-align: left;
-  display: flex;
-  justify-content: space-between;
-}
-
-.footer-input {
-  width: 320px;
-  padding-left: 15px;
-  margin-top: 1px;
-  margin-bottom: 3px;
-  border-radius: 10px;
-  border-width: 0.5px;
-  margin-right: 1px;
-}
-
-.footer-textarea {
-  width: 300px;
-  padding-left: 15px;
-  margin-bottom: 3px;
-  border-radius: 10px;
-  border-width: 0.5px;
-  padding-bottom: 53px;
-}
-
-#contact-form-button {
-  background-color: #5227cc;
-  color: #ffffff;
-  border-color: #5227cc;
-  border-radius: 25px;
-  padding-left: 25px;
-  padding-right: 25px;
-  max-width: fit-content;
-  margin-top: 20px;
-}
-
-.footer-nav {
-  margin-top: 1px;
-  color: #ffffff;
-  display: flex;
-  justify-content: space-around;
-  height: 140px;
-  background-color: #5227cc;
-}
-
-.footer-list {
-  list-style: none;
-  margin-left: 70px;
-  margin-bottom: 0px;
-}
-
-.footer-logo-nav {
-  display: flex;
-  margin-top: 22px;
-}
-
-.footer-social {
-  margin-top: 20px;
-}
-
-.footer-social-icons {
-  text-align: center;
-}
-
-#footer-facebook {
-  padding-right: 5px;
-}
-
-#footer-twitter {
-  padding-right: 5px;
-}
-
-.footer-copyright {
-  margin-top: 1px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #5227cc;
-}
-
-/********* SECCION NOSOTROS ********/
-* {
-  font-family: "DM Sans", sans-serif;
-}
+/***** SECCIÓN NOSOTROS *****/
 
 .we-container {
   display: flex;
   flex-direction: column;
   background-color: rgb(82, 152, 255);
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  align-items: center;
 }
 
 .we-row1,
@@ -337,48 +230,64 @@ header h1 {
   justify-items: center;
 }
 
-.we-row1-col1,
-.we-row2-col1,
-.we-row1-col2,
-.we-row2-col2 {
-  flex: 50%;
-}
 .we-img-voluntarios,
 .we-img-oficina {
-  width: 75%;
-  max-height: 200px;
+  width: 630px;
+  height: 300px;
+  object-fit: cover;
+  padding: 10px;
 }
 
 .we-row1-col1,
 .we-row2-col2 {
   display: flex;
-  justify-content: center;
   align-items: center;
+  width: 650px;
 }
+
+.we-row1-col2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 630px;
+}
+
+.we-row2-col1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 600px;
+  padding-left: 30px;
+}
+
+.we-row1-col2 {
+  margin-left: 30px;
+}
+
+.we-row2-col2 {
+  margin-right: 30px;
+}
+
 div.we-row2-col1 > h2,
 div.we-row1-col2 > h2 {
   flex: 100%;
-  text-align: center;
   color: white;
+  padding-bottom: 15px;
 }
 
 div.we-row2-col1 > p,
 div.we-row1-col2 > p {
   display: flex;
-  align-items: center;
-  justify-content: center;
   color: white;
-  padding: 5%;
 }
-/******************************************/
-/***************SECCION SERVICIOS*********/
-/*****************************************/
+
+/***** SECCIÓN SERVICIOS *****/
 
 .services-container {
   display: flex;
   flex-direction: column;
   min-height: 40vh;
-  padding: 7%;
+  padding: 5%;
 }
 
 div.serv-row-text > h2 {
@@ -465,8 +374,8 @@ div.serv-innerrow1-red > img {
 
 .icono-cruz {
   width: 25px;
-  height: 25px;
-  padding-top: 30px;
+  height: 55px;
+  padding-top: 25px;
 }
 
 .mano-corazoninner-icon {
@@ -489,9 +398,8 @@ div.serv-innerrow1-red > img {
   padding-top: 30px;
 }
 
-/**************************************************/
-/*******************SECCION NOTICIAS **************/
-/**************************************************/
+/***** SECCIÓN NOTICIAS *****/
+
 .news-container {
   display: flex;
   flex-direction: column;
@@ -638,7 +546,10 @@ div.news-card-4 > h4 {
 
 .news-card-text {
   height: 40%;
-  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  margin-bottom: 0px;
 }
 .news-card1-verMas,
 .news-card2-verMas,
@@ -657,9 +568,123 @@ div.news-card-4 > h4 {
   padding-right: 20px;
   height: 10%;
 }
-/*******************************************/
-/***************SECCION @MEDIAS ***********/
-/******************************************/
+
+/***** FOOTER *****/
+
+.footer-contact {
+  background-color: #fafafa;
+  display: flex;
+  padding-bottom: 200px;
+  padding-top: 80px;
+  height: 430px;
+  border-bottom: solid 6px #5227cc;
+  justify-content: center;
+}
+
+.footer-contact-image {
+  background-image: url(../Images/laptop-escritorio.jpg);
+  width: 610px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 210px;
+  margin-right: 20px;
+}
+
+.footer-contact-form {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 640px;
+}
+
+.footer-form {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-input {
+  width: 320px;
+  padding-left: 15px;
+  margin-top: 1px;
+  margin-bottom: 3px;
+  border-radius: 10px;
+  border-width: 0.5px;
+  margin-right: 1px;
+}
+
+.footer-textarea {
+  width: 300px;
+  padding-left: 15px;
+  margin-bottom: 3px;
+  border-radius: 10px;
+  border-width: 0.5px;
+  padding-bottom: 53px;
+}
+
+#contact-form-button {
+  background-color: #5227cc;
+  color: #ffffff;
+  border-color: #5227cc;
+  border-radius: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  max-width: fit-content;
+  margin-top: 20px;
+}
+
+#contact-form-button:hover {
+  background-color: #7749f8;
+  }
+
+
+.footer-nav {
+  margin-top: 1px;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  height: 140px;
+  background-color: #5227cc;
+}
+
+.footer-list {
+  list-style: none;
+  margin-left: 70px;
+  margin-bottom: 0px;
+}
+
+.footer-logo-nav {
+  display: flex;
+  margin-top: 22px;
+}
+
+.footer-social {
+  margin-top: 20px;
+}
+
+.footer-social-icons {
+  text-align: center;
+}
+
+#footer-facebook {
+  padding-right: 5px;
+}
+
+#footer-twitter {
+  padding-right: 5px;
+}
+
+.footer-copyright {
+  margin-top: 1px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5227cc;
+}
+
+/***** RESPONSIVE DESIGN *****/
 
 @media only screen and (max-width: 390px) {
   /*Para móviles 390x844px (iphone 12 pro)*/
