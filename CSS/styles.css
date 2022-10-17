@@ -411,8 +411,8 @@ div.serv-innerrow1-red > img {
 
 .icono-cruz {
   width: 25px;
-  height: 25px;
-  padding-top: 30px;
+  height: 55px;
+  padding-top: 25px;
 }
 
 .mano-corazoninner-icon {
@@ -501,6 +501,8 @@ div.news-row-1 > p {
   align-items: center;
   padding-left: 5%;
   padding-right: 5%;
+  list-style: none; 
+
 }
 .news-card1-ul1,
 .news-card1-ul2,
