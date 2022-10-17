@@ -98,19 +98,26 @@
             <button
               id="modal-button-company"
               type="button"
-              class="btn btn-secondary"
               data-bs-dismiss="modal"
             >
               <div class="modal-briefcase">
-                <img src="Images/icono-maletin.png" alt="" />
+                <img
+                  class="modal-briefcase-icon"
+                  src="Images/icono-maletin.png"
+                  alt=""
+                />
               </div>
-              <div>
-                MI EMPRESA<br />
-                Breve explicación a lo que nos<br />referimos<br />
-                <img src="Images/icono-flecha.png" alt="Arrow" />
+              <div class="modal-company-text">
+                <h6 class="modal-company-h6">MI EMPRESA</h6>
+                <span>
+                  Breve explicación a lo que nos<br />referimos<br
+                /></span>
+                <div class="modal-arrow">
+                  <img src="Images/icono-flecha.png" alt="Arrow" />
+                </div>
               </div>
             </button>
-            <button id="modal-button-org" type="button">
+            <button id="modal-button-org" type="button" data-bs-dismiss="modal">
               <div class="modal-person">
                 <img
                   class="modal-person-icon"
@@ -121,7 +128,7 @@
               <div class="modal-org-text">
                 <h6 class="modal-org-h6">MI ORGANIZACIÓN</h6>
                 <span> Estamos para ayudarlos<br />a tener éxito<br /></span>
-                <div class="modal-org-arrow">
+                <div class="modal-arrow">
                   <img src="Images/icono-flecha.png" alt="Arrow" />
                 </div>
               </div>
@@ -303,7 +310,7 @@
               <h4>Fundapatas abre nuevo centro</h4>
               <p class="news-card-text">
                 El nuevo centro estará ubicado dentro del predio municipal
-                Parque Rivera. La inaguración de centro contará con la presencia
+                Parque Rivera. La inaguración de centro contara con la presencia
                 de la intendenta Carolina.
               </p>
               <div class="news-card-verMas-elements">

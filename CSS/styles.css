@@ -637,12 +637,6 @@ div.news-row-1 > p {
   text-align: center;
   position: relative;
 }
-/* 
-.news-card-title { 
-  height:15%; 
-  padding-left:5%;
-  padding-right:5%;
-} */
 
 div.news-card-1 > h4,
 div.news-card-2 > h4,
@@ -654,15 +648,11 @@ div.news-card-4 > h4 {
 
 .news-card-text {
   height: 40%;
-<<<<<<< HEAD
   padding-left: 10px;
   padding-right:10px;
   padding-top:10px;
   margin-bottom:0px;
 
-=======
-  padding: 10px;
->>>>>>> ba3bb479a616ece084659ec011599b20c21f66f6
 }
 .news-card1-verMas,
 .news-card2-verMas,
