@@ -555,7 +555,11 @@ div.news-row-1 > p {
   align-items: center;
   padding-left: 5%;
   padding-right: 5%;
+  list-style:none
+
 }
+
+
 .news-card1-ul1,
 .news-card1-ul2,
 .news-card2-ul1,
