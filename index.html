@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NEXOS</title>
+
+    <!-- CSS Propio -->
+    <link rel="stylesheet" href="CSS/styles.css" />
+
+    <!-- CSS Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS de Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <img class="nav-image" src="Images/logo.png" alt="Logo" />
+          <ul id="nav-list" class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Noticias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Ayuda</a>
+            </li>
+          </ul>
+          <button
+            id="nav-button"
+            class="btn"
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            INGRESAR
+          </button>
+        </div>
+      </nav>
+    </nav>
+
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div id="modal-content-container" class="modal-content">
+          <div class="modal-left-container"></div>
+
+          <div id="modal-right-container" class="modal-footer">
+            <div id="modal-close-button">
+              <div>
+                <img
+                  class="modal-arrow-back"
+                  src="Images/icono-flecha.png"
+                  alt="Arrow back"
+                />
+                <span>volver atrás</span>
+              </div>
+
+              <div>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+            </div>
+            <div><h6 class="modal-titles">REGISTRAR</h6></div>
+            <button
+              id="modal-button-company"
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              <div class="modal-briefcase">
+                <img src="Images/icono-maletin.png" alt="" />
+              </div>
+              <div>
+                MI EMPRESA<br />
+                Breve explicación a lo que nos<br />referimos<br />
+                <img src="Images/icono-flecha.png" alt="Arrow" />
+              </div>
+            </button>
+            <button id="modal-button-org" type="button">
+              <div class="modal-person">
+                <img
+                  class="modal-person-icon"
+                  src="Images/icono-persona.png"
+                  alt=""
+                />
+              </div>
+              <div class="modal-org-text">
+                <h6 class="modal-org-h6">MI ORGANIZACIÓN</h6>
+                <span> Estamos para ayudarlos<br />a tener éxito<br /></span>
+                <div class="modal-org-arrow">
+                  <img src="Images/icono-flecha.png" alt="Arrow" />
+                </div>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <header class="header">
+      <div class="header-text">
+        <h1>¡Actúa para cambiar el mundo!</h1>
+        <p>
+          Fomentamos el vínculo entre empresas y organizaciones civiles para
+          generar un <br />impacto positivo en la sociedad.<br />Descubrí
+          diferentes maneras de involucrar tu organización con la sociedad.
+        </p>
+      </div>
+    </header>
+
+    <main>
+      <div class="we-container">
+        <div class="we-row1">
+          <div class="we-row1-col1">
+            <img class="we-img-oficina" src="Images/oficina.png" alt="" />
+          </div>
+          <div class="we-row1-col2">
+            <h2>Soluciones para empresas</h2>
+            <p>
+              Generamos un medio para que las empresas se involucren en <br />
+              actividades de responsabilidad social. <br />
+              ¡Creá un grupo de voluntarios en tu organización y se parte <br />
+              del cambio.!
+            </p>
+          </div>
+        </div>
+        <div class="we-row2">
+          <div class="we-row2-col1">
+            <h2>Soluciones para organizaciones</h2>
+            <p>
+              Apoyamos las organizaciones sociales para que alcancen sus <br />
+              objetivos. Ponernos a su disposición una comunidad de voluntarios
+              <br />
+              dispuestos a apoyarla en sus necesidades. <br />
+              Equipos de voluntarios por empresas dispuestos a potenciar tu
+              <br />
+              impacto en la sociedad.
+            </p>
+          </div>
+          <div class="we-row2-col2">
+            <img
+              class="we-img-voluntarios"
+              src="Images/voluntariado.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <div class="services-container">
+        <div class="serv-row-text">
+          <h2>Encuentra las mejores oportunidades</h2>
+          <p>
+            La platafoma cuenta con gran variedad de proyectos locales
+            (sociales, educativos y medioambientales), donde <br />
+            encontrarás el que mejor se adapte a la experiencia que estas
+            buscando. <br />
+            Te ayudamos en la combinación con la organización de forma simple y
+            rápida.
+          </p>
+        </div>
+        <div class="serv-row-squares">
+          <div class="serv-row-squares-first-half">
+            <div class="serv-row-squares-col1">
+              <div class="serv-element1-red">
+                <div class="serv-innerrow1-red">
+                  <img
+                    class="mano-corazoninner-icon"
+                    src="Images/icono-mano.png"
+                    alt=""
+                  />
+                  <img class="icono-cruz" src="Images/icono-mas.png" alt="" />
+                </div>
+                <div class="serv-innerrow2-red">
+                  <h3>Ser voluntario</h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="serv-row-squares-col2">
+              <div class="serv-element2-yellow">
+                <div class="serv-innerrow1-yellow">
+                  <div class="serv-innercol1-yellow">
+                    <img
+                      class="icono-mano-corazon"
+                      src="Images/icono-mano-corazon.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="serv-innercol2-yellow">
+                    <img class="icono-cruz" src="Images/icono-mas.png" alt="" />
+                  </div>
+                </div>
+                <div class="serv-innerrow2-yellow">
+                  <h3>Donar</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="serv-row-squares-second-half">
+            <!--mitad columnas -->
+            <div class="serv-row-squares-col3">
+              <div class="serv-element3-green">
+                <div class="serv-innerrow1-green">
+                  <div class="serv-innercol1-green">
+                    <img
+                      class="serv-icono-reciclar"
+                      src="Images/icono-reciclar.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="serv-innercol2-green">
+                    <img class="icono-cruz" src="Images/icono-mas.png" alt="" />
+                  </div>
+                </div>
+                <div class="serv-innerrow2-green">
+                  <h3>Reciclar</h3>
+                </div>
+              </div>
+            </div>
+            <div class="serv-row-squares-col4">
+              <div class="serv-element4-blue">
+                <div class="serv-innerrow1-blue">
+                  <div class="serv-innercol1-blue">
+                    <img
+                      class="serv-icono-llamLaborales"
+                      src="Images/icono-maletin.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="serv-innercol2-blue">
+                    <img class="icono-cruz" src="Images/icono-mas.png" alt="" />
+                  </div>
+                </div>
+                <div class="serv-innerrow2-blue">
+                  <h3>Llamados<br />Laborales</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="news-container">
+        <div class="news-row-1">
+          <h2>Noticias</h2>
+          <p>Ver todas</p>
+        </div>
+        <div class="news-row-2">
+          <div class="news-cards-first-half">
+            <div class="news-card-1">
+              <div class="news-card1-imgFondo">
+                <div class="news-etiqueda-container">
+                  <span> ANIMALES</span>
+                </div>
+              </div>
+              <div class="news-card1-ul">
+                <ul class="news-card1-ul1">
+                  <li>
+                    <img src="Images/icono-calendario.png" alt="" />
+                  </li>
+                  <li>fecha</li>
+                </ul>
+                <ul class="news-card1-ul2">
+                  <li>
+                    <img src="Images/icono-reloj.png" alt="" />
+                  </li>
+                  <li>4 min</li>
+                </ul>
+              </div>
+              <h4>Fundapatas abre nuevo centro</h4>
+              <p class="news-card-text">
+                El nuevo centro estará ubicado dentro del predio municipal
+                Parque Rivera.<br />
+                La inaguración de centro contara con la presencia de la
+                intendenta Carolina.
+              </p>
+              <div class="news-card-verMas-elements">
+                <img
+                  src="Images/icono-flecha.png"
+                  height="10px"
+                  width="20px"
+                  alt=""
+                />
+                <p><span class="news-card1-verMas">Ver más</span></p>
+              </div>
+            </div>
+            <div class="news-card-2">
+              <div class="news-card2-imgFondo">
+                <div class="news-etiqueda-container">
+                  <span class="news-etiqueda">URUGUAY</span>
+                </div>
+              </div>
+              <div class="news-card2-ul">
+                <ul class="news-card2-ul1">
+                  <li>
+                    <img src="Images/icono-calendario.png" alt="" />
+                  </li>
+                  <li>fecha</li>
+                </ul>
+                <ul class="news-card2-ul2">
+                  <li>
+                    <img src="Images/icono-reloj.png" alt="" />
+                  </li>
+                  <li>4 min</li>
+                </ul>
+              </div>
+              <!-- <div class="news-card2-texts"> -->
+              <h4>DIRECTV y TECHO inauguraron un espacio deportivo</h4>
+              <p class="news-card-text">
+                Los vecinos del lugar recibieron con alegría la concreción de
+                este proyecto, que busca promover la socialización y la
+                actividad física.
+              </p>
+              <!-- </div> -->
+              <div class="news-card-verMas-elements">
+                <img
+                  src="Images/icono-flecha.png"
+                  height="10px"
+                  width="20px"
+                  alt=""
+                />
+                <p><span class="news-card2-verMas">Ver más</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="news-cards-second-half">
+            <div class="news-card-3">
+              <div class="news-card3-imgFondo">
+                <div class="news-etiqueda-container">
+                  <span class="news-etiqueda">VOLUNTARIADO</span>
+                </div>
+              </div>
+              <div class="news-card3-ul">
+                <ul class="news-card3-ul1">
+                  <li>
+                    <img src="Images/icono-calendario.png" alt="" />
+                  </li>
+                  <li>fecha</li>
+                </ul>
+                <ul class="news-card3-ul2">
+                  <li>
+                    <img src="Images/icono-reloj.png" alt="" />
+                  </li>
+                  <li>3 min</li>
+                </ul>
+              </div>
+
+              <h4>Jornada de voluntariado</h4>
+              <p class="news-card-text">
+                Se realizó una nueva jornada de<br />
+                voluntarios Remar. El encuentro tuvo parte en el departamento
+                de<br />
+                Montevideo y contó.
+              </p>
+              <div class="news-card-verMas-elements">
+                <img
+                  src="Images/icono-flecha.png"
+                  height="10px"
+                  width="20px"
+                  alt=""
+                />
+                <p><span class="news-card3-verMas">Ver más</span></p>
+              </div>
+            </div>
+            <div class="news-card-4">
+              <div class="news-card4-imgFondo">
+                <div class="news-etiqueda-container">
+                  <span class="news-etiqueda">URUGUAY</span>
+                </div>
+              </div>
+              <div class="news-card4-ul">
+                <ul class="news-card4-ul1">
+                  <li>
+                    <img src="Images/icono-calendario.png" alt="" />
+                  </li>
+                  <li>fecha</li>
+                </ul>
+                <ul class="news-card4-ul2">
+                  <li>
+                    <img src="Images/icono-reloj.png" alt="" />
+                  </li>
+                  <li>5 min</li>
+                </ul>
+              </div>
+
+              <h4 class="news-card-title">Lanzamiento de plan Tu Techo</h4>
+              <p class="news-card-text">
+                Techo Uruguay informó su nuevo plan de acción para el segundo
+                semestre del año.
+              </p>
+              <div class="news-card-verMas-elements">
+                <img
+                  src="Images/icono-flecha.png"
+                  height="10px"
+                  width="20px"
+                  alt=""
+                />
+                <p><span class="news-card4-verMas">Ver más</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="news-row-3"></div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-contact">
+        <div class="footer-contact-image"></div>
+        <div class="footer-contact-form">
+          <h2>Contacto</h2>
+
+          <form class="footer-form">
+            <div class="footer-form-left">
+              <label for="name">Texto dato</label><br />
+              <input
+                class="footer-input"
+                type="text"
+                name="name"
+                placeholder="Dato a completar"
+              /><br />
+
+              <label for="apellido">Texto dato</label><br />
+              <input
+                class="footer-input"
+                type="text"
+                name="lastname"
+                placeholder="Dato a completar"
+              /><br />
+            </div>
+
+            <div>
+              <label for="subject">Mensaje</label><br />
+              <input
+                class="footer-textarea"
+                id="subject"
+                name="subject"
+                placeholder="Escribe tu mensaje aquí"
+                style="height: 81.5px"
+              />
+            </div>
+          </form>
+
+          <div>
+            <button id="contact-form-button" class="btn" type="submit">
+              ENVIAR
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-nav">
+        <div class="footer-logo-nav">
+          <div><img src="Images/logo-blanco.png" alt="Logo blanco" /></div>
+          <div>
+            <ul class="footer-list">
+              <li>Nosotros</li>
+              <li>Noticias</li>
+              <li>Contacto</li>
+              <li>Términos y condiciones</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-social">
+          <div><span>Seguinos!</span></div>
+          <div class="footer-social-icons">
+            <i id="footer-facebook" class="fab fa-facebook-f"></i>
+            <i id="footer-twitter" class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-copyright">
+        <div><span>Copyright &#169; 2021. All rights reserved.</span></div>
+      </div>
+    </footer>
+
+    <script src="JS/app.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

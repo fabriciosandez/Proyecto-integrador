@@ -1,0 +1,699 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans", sans-serif;
+}
+
+/*** NAVBAR ***/
+
+nav {
+  height: 75px;
+}
+
+.nav-image {
+  max-height: 30px;
+  padding-left: 200px;
+}
+
+#nav-list {
+  margin-left: 70px;
+}
+
+.nav-item {
+  padding-left: 110px;
+  font-weight: bold;
+}
+
+#nav-button {
+  background-color: #5227cc;
+  color: #ffffff;
+  border-color: #5227cc;
+  border-radius: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-right: 200px;
+}
+
+/*** HEADER ***/
+
+.header {
+  background-image: url(../Images/manos.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.header:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header-text {
+  position: relative;
+}
+
+header h1 {
+  padding-bottom: 15px;
+}
+
+/*** MODAL ***/
+
+#modal-content-container {
+  flex-direction: row;
+}
+
+.modal-left-container {
+  background-image: url(../Images/imagen-modal.JPG);
+  height: 500px;
+  width: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#modal-right-container {
+  flex-direction: column;
+  width: 400px;
+  justify-content: flex-start;
+  border-top: 0px;
+  background-color: #fafafa;
+}
+
+.modal-arrow-back {
+  transform: rotate(180deg);
+}
+
+#modal-close-button {
+  display: flex;
+  padding-right: 10px;
+  width: 380px;
+  justify-content: space-between;
+}
+
+.modal-titles {
+  font-weight: bold;
+}
+
+#modal-button-company {
+  display: flex;
+  text-align: left;
+}
+
+#modal-button-org {
+  display: flex;
+  text-align: left;
+  width: 350px;
+  border: transparent;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.modal-person {
+  background-color: #7749f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 100%;
+  border: transparent;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.modal-person-icon {
+  max-height: 30px;
+  max-width: 25px;
+}
+
+.modal-org-text {
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-bottom: 5px;
+  width: 100%;
+}
+
+.modal-org-h6 {
+  color: #7749f8;
+  font-weight: bold;
+}
+
+.modal-org-arrow {
+  text-align: right;
+  padding-right: 15px;
+}
+
+/*** FOOTER ***/
+
+.footer-contact {
+  background-color: #fafafa;
+  display: flex;
+  padding-bottom: 200px;
+  padding-top: 80px;
+  height: 430px;
+  border-bottom: solid 6px #5227cc;
+  justify-content: center;
+}
+
+.footer-contact-image {
+  background-image: url(../Images/laptop-escritorio.jpg);
+  width: 640px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 210px;
+  margin-right: 20px;
+}
+
+.footer-contact-form {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 640px;
+}
+
+.footer-form {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-input {
+  width: 320px;
+  padding-left: 15px;
+  margin-top: 1px;
+  margin-bottom: 3px;
+  border-radius: 10px;
+  border-width: 0.5px;
+  margin-right: 1px;
+}
+
+.footer-textarea {
+  width: 300px;
+  padding-left: 15px;
+  margin-bottom: 3px;
+  border-radius: 10px;
+  border-width: 0.5px;
+  padding-bottom: 53px;
+}
+
+#contact-form-button {
+  background-color: #5227cc;
+  color: #ffffff;
+  border-color: #5227cc;
+  border-radius: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  max-width: fit-content;
+  margin-top: 20px;
+}
+
+.footer-nav {
+  margin-top: 1px;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  height: 140px;
+  background-color: #5227cc;
+}
+
+.footer-list {
+  list-style: none;
+  margin-left: 70px;
+  margin-bottom: 0px;
+}
+
+.footer-logo-nav {
+  display: flex;
+  margin-top: 22px;
+}
+
+.footer-social {
+  margin-top: 20px;
+}
+
+.footer-social-icons {
+  text-align: center;
+}
+
+#footer-facebook {
+  padding-right: 5px;
+}
+
+#footer-twitter {
+  padding-right: 5px;
+}
+
+.footer-copyright {
+  margin-top: 1px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5227cc;
+}
+
+/********* SECCION NOSOTROS ********/
+* {
+  font-family: "DM Sans", sans-serif;
+}
+
+.we-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(82, 152, 255);
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.we-row1,
+.we-row2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+}
+
+.we-row1-col1,
+.we-row2-col1,
+.we-row1-col2,
+.we-row2-col2 {
+  flex: 50%;
+}
+.we-img-voluntarios,
+.we-img-oficina {
+  width: 75%;
+  max-height: 200px;
+}
+
+.we-row1-col1,
+.we-row2-col2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.we-row2-col1 > h2,
+div.we-row1-col2 > h2 {
+  flex: 100%;
+  text-align: center;
+  color: white;
+}
+
+div.we-row2-col1 > p,
+div.we-row1-col2 > p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 5%;
+}
+/******************************************/
+/***************SECCION SERVICIOS*********/
+/*****************************************/
+
+.services-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 40vh;
+  padding: 7%;
+}
+
+div.serv-row-text > h2 {
+  flex: 100%;
+  text-align: center;
+}
+div.serv-row-text > p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.serv-row-squares {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+.serv-row-squares-second-half,
+.serv-row-squares-first-half {
+  display: flex;
+  flex-direction: row;
+}
+
+.serv-element2-yellow,
+.serv-element1-red,
+.serv-element3-green,
+.serv-element4-blue {
+  color: white;
+  width: 250px;
+  height: 200px;
+  border-radius: 12px;
+  margin: 7px;
+}
+.serv-element1-red {
+  background-color: rgb(220, 53, 69);
+}
+.serv-element2-yellow {
+  background-color: rgb(255, 156, 7);
+}
+.serv-element3-green {
+  background-color: rgb(40, 167, 69);
+}
+.serv-element4-blue {
+  background-color: rgb(23, 162, 184);
+}
+
+.serv-innerrow1-red {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* padding-top:25px; */
+}
+div.serv-innerrow1-red > img {
+  display: flex;
+  padding-top: 35px;
+  /* padding-top:25px; */
+}
+
+.serv-innerrow1-yellow,
+.serv-innerrow1-green,
+.serv-innerrow1-blue {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 25px;
+  padding-right: 20px;
+  /*padding-top:30px; */
+  height: 110px;
+}
+.serv-innerrow2-yellow,
+.serv-innerrow2-red,
+.serv-innerrow2-green,
+.serv-innerrow2-blue {
+  flex: 100%;
+  padding-left: 25px;
+  height: 40%;
+}
+
+.icono-cruz {
+  width: 25px;
+  height: 25px;
+  padding-top: 30px;
+}
+
+.mano-corazoninner-icon {
+  width: 20%;
+  height: 30%;
+}
+.serv-icono-llamLaborales {
+  width: 85%;
+  height: 65%;
+  padding-top: 30px;
+}
+.serv-icono-reciclar {
+  width: 85%;
+  height: 65%;
+  padding-top: 30px;
+}
+.icono-mano-corazon {
+  width: 80%;
+  height: 55%;
+  padding-top: 30px;
+}
+
+/**************************************************/
+/*******************SECCION NOTICIAS **************/
+/**************************************************/
+.news-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 60vh;
+  /* padding: 7%; */
+  background-color: rgb(82, 152, 255);
+  background-size: cover;
+  padding: 5%;
+  padding-top: 7%;
+}
+
+div.news-row-1 > h2 {
+  flex: 100%;
+  text-align: center;
+  color: white;
+}
+div.news-row-1 > p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 3%;
+  color: white;
+}
+
+.news-row-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 65%;
+  width: 100%;
+}
+.news-cards-first-half,
+.news-cards-second-half {
+  display: flex;
+  flex-direction: row;
+}
+
+.news-card-1,
+.news-card-2,
+.news-card-3,
+.news-card-4 {
+  width: 300px;
+  height: 435px;
+  border-radius: 12px;
+  margin: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+.news-card1-ul,
+.news-card2-ul,
+.news-card3-ul,
+.news-card4-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 10%;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.news-card1-ul1,
+.news-card1-ul2,
+.news-card2-ul1,
+.news-card2-ul2,
+.news-card3-ul1,
+.news-card3-ul2,
+.news-card4-ul1,
+.news-card4-ul2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.news-card1-imgFondo {
+  position: relative;
+  background-image: url("../Images/voluntariado-animales.jfif");
+  min-height: 35%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+}
+.news-card2-imgFondo {
+  position: relative;
+  background-image: url("../Images/voluntariado-pintura.jpeg");
+  min-height: 35%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+}
+
+.news-card3-imgFondo {
+  position: relative;
+  background-image: url("../Images/voluntariado-hospital.jpg");
+  min-height: 35%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+}
+.news-card4-imgFondo {
+  position: relative;
+  background-image: url("../Images/voluntariado-casa.jpg");
+  min-height: 35%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+}
+
+.news-etiqueda-container {
+  background-color: rgb(82, 39, 204);
+  width: 50%;
+  height: 25px;
+  color: white;
+  text-align: center;
+  border-radius: 15px;
+  position: absolute;
+  bottom: 10px;
+  left: 5px;
+}
+.news-etiqueta {
+  text-align: center;
+  position: relative;
+}
+/* 
+.news-card-title { 
+  height:15%; 
+  padding-left:5%;
+  padding-right:5%;
+} */
+
+div.news-card-1 > h4,
+div.news-card-2 > h4,
+div.news-card-3 > h4,
+div.news-card-4 > h4 {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.news-card-text {
+  height: 40%;
+  padding: 10px;
+}
+.news-card1-verMas,
+.news-card2-verMas,
+.news-card3-verMas,
+.news-card4-verMas {
+  display: flex;
+  justify-content: flex-end;
+  /* position:relative; */
+}
+
+.news-card-verMas-elements {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: flex-end;
+  padding-right: 20px;
+  height: 10%;
+}
+/*******************************************/
+/***************SECCION @MEDIAS ***********/
+/******************************************/
+
+@media only screen and (max-width: 390px) {
+  /*Para móviles 390x844px (iphone 12 pro)*/
+  .we-row1,
+  .we-row2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+  }
+  div.we-row2-col1 > p,
+  div.we-row1-col2 > p {
+    margin: 5%;
+  }
+  div.we-row1-col2 > h2 {
+    margin: 5%;
+  }
+  /*Seccion servicios*/
+  .serv-row-squares {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .serv-row-squares-second-half,
+  .serv-row-squares-first-half {
+    display: flex;
+    flex-direction: column;
+  }
+  /*Seccion noticias*/
+  .news-row-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 65%;
+    width: 100%;
+  }
+  .news-cards-first-half,
+  .news-cards-second-half {
+    display: flex;
+    flex-direction: column;
+  }
+  .news-card-1,
+  .news-card-2,
+  .news-card-3,
+  .news-card-4 {
+    width: 90%;
+    align-items: center;
+  }
+  .news-cards-first-half,
+  .news-cards-second-half {
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 391px) {
+  /* .we-row1, .we-row2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;             
+      justify-items: center;
+      
+  } */
+  .serv-row-squares {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .serv-row-squares-second-half,
+  .serv-row-squares-first-half {
+    display: flex;
+    flex-direction: row;
+  }
+  .news-row-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 65%;
+    width: 100%;
+  }
+  .news-cards-first-half,
+  .news-cards-second-half {
+    display: flex;
+    flex-direction: row;
+  }
+}
