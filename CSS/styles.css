@@ -384,17 +384,17 @@ div.serv-innerrow1-red > img {
 }
 .serv-icono-llamLaborales {
   width: 85%;
-  height: 65%;
+  height: 75%;
   padding-top: 30px;
 }
 .serv-icono-reciclar {
   width: 85%;
-  height: 65%;
+  height: 75%;
   padding-top: 30px;
 }
 .icono-mano-corazon {
   width: 80%;
-  height: 55%;
+  height: 75%;
   padding-top: 30px;
 }
 
@@ -463,17 +463,33 @@ div.news-row-1 > p {
   align-items: center;
   padding-left: 5%;
   padding-right: 5%;
+  list-style:none
+
 }
+
+
 .news-card1-ul1,
-.news-card1-ul2,
 .news-card2-ul1,
-.news-card2-ul2,
 .news-card3-ul1,
+.news-card4-ul1 {
+  display: flex;
+  flex-direction: row;
+  width:35%;
+  list-style:none
+
+}
+
+
+.news-card1-ul2,
+.news-card2-ul2,
 .news-card3-ul2,
-.news-card4-ul1,
 .news-card4-ul2 {
   display: flex;
   flex-direction: row;
+  width:35%;
+  padding-left:0px;
+  list-style:none
+
 }
 
 .news-card1-imgFondo {
@@ -529,12 +545,6 @@ div.news-row-1 > p {
   text-align: center;
   position: relative;
 }
-/* 
-.news-card-title { 
-  height:15%; 
-  padding-left:5%;
-  padding-right:5%;
-} */
 
 div.news-card-1 > h4,
 div.news-card-2 > h4,
@@ -542,14 +552,22 @@ div.news-card-3 > h4,
 div.news-card-4 > h4 {
   padding-left: 5%;
   padding-right: 5%;
+  margin-bottom: 0px;
 }
 
 .news-card-text {
   height: 40%;
   padding-left: 10px;
+<<<<<<< HEAD
   padding-right: 10px;
   padding-top: 10px;
   margin-bottom: 0px;
+=======
+  padding-right:10px;
+  padding-top:10px;
+  margin-bottom:0px;
+
+>>>>>>> 4a878236fdc96dcc9d4f6d47bdb4b929bf51afe8
 }
 .news-card1-verMas,
 .news-card2-verMas,
