@@ -753,6 +753,25 @@ div.news-card-4 > h4 {
   }
 }
 
+.news-row-3-carusel-navigation{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  list-style-type:none;
+  padding-left: 0px;
+}
+.carusel-navigation-button {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #333;
+  background-clip: content-box;
+  border: 0.25rem solid transparent;
+  border-radius: 50%;
+  font-size: 0;
+  transition: transform 0.1s;
+}
+
 @media only screen and (max-width: 1000px) and (min-width: 391px) {
   /* .we-row1, .we-row2 {
       display: flex;
