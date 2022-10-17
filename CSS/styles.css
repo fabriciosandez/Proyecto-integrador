@@ -440,7 +440,7 @@ div.serv-row-text > p {
 div.serv-innerrow1-red > img {
   display: flex;
   padding-top: 35px;
-  /* padding-top:25px; */
+  padding-top:25px;
 }
 
 .serv-innerrow1-yellow,
@@ -671,6 +671,31 @@ div.news-card-4 > h4 {
   justify-content: flex-end;
   padding-right: 20px;
   height: 10%;
+}
+
+/*******************************************/
+/***************SECCION CARRUSEL************/
+/*******************************************/
+.news-row-3-carusel-navigation {
+  list-style:none;
+  display:flex;
+  flex-direction: row;
+  padding-left:0px;
+  justify-content:center;
+  margin-top: 1.5%;
+  margin-bottom: 1%;
+
+}
+.carusel-navigation-button {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #333;
+  background-clip: content-box;
+  border: 0.25rem solid transparent;
+  border-radius: 50%;
+  font-size: 0;
+  transition: transform 0.1s;
 }
 /*******************************************/
 /***************SECCION @MEDIAS ***********/
