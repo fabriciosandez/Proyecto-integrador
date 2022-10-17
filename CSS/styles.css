@@ -349,7 +349,7 @@ div.serv-row-text > p {
 div.serv-innerrow1-red > img {
   display: flex;
   padding-top: 35px;
-  /* padding-top:25px; */
+  padding-top:25px;
 }
 
 .serv-innerrow1-yellow,
