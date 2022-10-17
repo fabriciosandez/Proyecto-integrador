@@ -561,15 +561,27 @@ div.news-row-1 > p {
 
 
 .news-card1-ul1,
-.news-card1-ul2,
 .news-card2-ul1,
-.news-card2-ul2,
 .news-card3-ul1,
+.news-card4-ul1 {
+  display: flex;
+  flex-direction: row;
+  width:35%;
+  list-style:none
+
+}
+
+
+.news-card1-ul2,
+.news-card2-ul2,
 .news-card3-ul2,
-.news-card4-ul1,
 .news-card4-ul2 {
   display: flex;
   flex-direction: row;
+  width:35%;
+  padding-left:0px;
+  list-style:none
+
 }
 
 .news-card1-imgFondo {
