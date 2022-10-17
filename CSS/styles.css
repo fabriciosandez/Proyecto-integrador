@@ -753,6 +753,14 @@ div.news-card-4 > h4 {
   }
 }
 
+.news-card1-ul,
+.news-card2-ul,
+.news-card3-ul,
+.news-card4-ul {
+  width:100%;
+
+}
+
 .news-row-3-carusel-navigation{
   display:flex;
   flex-direction:row;
