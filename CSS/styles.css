@@ -417,21 +417,21 @@ div.serv-innerrow1-red > img {
 
 .mano-corazoninner-icon {
   width: 20%;
-  height: 30%;
+  height: 25%;
 }
 .serv-icono-llamLaborales {
   width: 85%;
-  height: 65%;
+  height: 75%;
   padding-top: 30px;
 }
 .serv-icono-reciclar {
   width: 85%;
-  height: 65%;
+  height: 75%;
   padding-top: 30px;
 }
 .icono-mano-corazon {
   width: 80%;
-  height: 55%;
+  height: 75%;
   padding-top: 30px;
 }
 
@@ -569,12 +569,6 @@ div.news-row-1 > p {
   text-align: center;
   position: relative;
 }
-/* 
-.news-card-title { 
-  height:15%; 
-  padding-left:5%;
-  padding-right:5%;
-} */
 
 div.news-card-1 > h4,
 div.news-card-2 > h4,
@@ -582,11 +576,16 @@ div.news-card-3 > h4,
 div.news-card-4 > h4 {
   padding-left: 5%;
   padding-right: 5%;
+  margin-bottom:0px;
 }
 
 .news-card-text {
-  height: 40%;
-  padding: 10px;
+  height: 35%;
+  padding-left: 10px;
+  padding-right:10px;
+  padding-top:10px;
+  margin-bottom:0px;
+
 }
 .news-card1-verMas,
 .news-card2-verMas,
