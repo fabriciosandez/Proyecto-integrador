@@ -760,8 +760,9 @@ div.news-card-4 > .news-card-text {
     max-width: 100%;
     align-items: center;
     justify-items: center;
-    flex-direction: column-reverse;
   }
+
+  .we-row1{flex-direction: column-reverse;}
 
   .we-row1-col1,
   .we-row1-col2,
