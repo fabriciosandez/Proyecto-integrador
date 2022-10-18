@@ -819,7 +819,47 @@ div.news-card-4 > .news-card-text {
     align-items: center;
   }
 
+<<<<<<< HEAD
   .footer-contact {
+=======
+.news-card1-ul,
+.news-card2-ul,
+.news-card3-ul,
+.news-card4-ul {
+  width:100%;
+
+}
+
+.news-row-3-carusel-navigation{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  list-style-type:none;
+  padding-left: 0px;
+}
+.carusel-navigation-button {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #333;
+  background-clip: content-box;
+  border: 0.25rem solid transparent;
+  border-radius: 50%;
+  font-size: 0;
+  transition: transform 0.1s;
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 391px) {
+  /* .we-row1, .we-row2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;             
+      justify-items: center;
+      
+  } */
+  .serv-row-squares {
+    display: flex;
+>>>>>>> 490c470ac10202b49bf417d9af5b10d5627b6e96
     flex-direction: column;
     align-items: center;
     justify-items: center;
