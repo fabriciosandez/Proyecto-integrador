@@ -489,6 +489,8 @@ div.news-row-1 > p {
   align-items: center;
   list-style: none;
   font-size: 14px;
+  width:100%;
+
 }
 
 .news-card1-ul1,
@@ -623,6 +625,26 @@ div.news-card-4 > .news-card-text {
   text-decoration: none;
   color: grey;
 }
+
+.news-row-3-carusel-navigation{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  list-style-type:none;
+  padding-left: 0px;
+}
+.carusel-navigation-button {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #333;
+  background-clip: content-box;
+  border: 0.25rem solid transparent;
+  border-radius: 50%;
+  font-size: 0;
+  transition: transform 0.1s;
+}
+
 
 /***** FOOTER *****/
 
