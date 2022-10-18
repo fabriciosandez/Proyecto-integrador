@@ -35,35 +35,32 @@
     />
   </head>
   <body>
-
     <!-- NAVBAR -->
-    <nav>
-      <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <img class="nav-image" src="Images/logo.png" alt="Logo" />
-          <ul id="nav-list" class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" href="#nosotros">Nosotros</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#noticias">Noticias</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#footer-help">Ayuda</a>
-            </li>
-          </ul>
-          <button
-            id="nav-button"
-            class="btn"
-            type="button"
-            data-bs-toggle="modal"
-            data-bs-target="#exampleModal"
-          >
-            INGRESAR
-          </button>
-        </div>
-      </nav>
-    </nav>
+
+    <div class="navbar">
+      <img class="nav-image" src="Images/logo.png" alt="Logo" />
+      <div id="myLinks">
+        <ul class="nav-list">
+          <li class="nav-list-item"><a href="#nosotros">Nosotros</a></li>
+          <li class="nav-list-item"><a href="#noticias">Noticias</a></li>
+          <li class="nav-list-item"><a href="#footer-help">Ayuda</a></li>
+        </ul>
+      </div>
+      <button
+        id="nav-button"
+        class="btn"
+        type="button"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal"
+      >
+        INGRESAR
+      </button>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
 
     <!-- MODAL -->
 
@@ -201,7 +198,7 @@
         </div>
       </div>
 
- <!-- SERVICIOS -->
+      <!-- SERVICIOS -->
 
       <div class="services-container">
         <div class="serv-row-text">
@@ -225,7 +222,11 @@
                     src="Images/icono-mano.png"
                     alt="Mano"
                   />
-                  <img class="icono-cruz" src="Images/icono-mas.png" alt="Mas" />
+                  <img
+                    class="icono-cruz"
+                    src="Images/icono-mas.png"
+                    alt="Mas"
+                  />
                 </div>
                 <div class="serv-innerrow2-red">
                   <h3>Ser voluntario</h3>
@@ -244,7 +245,11 @@
                     />
                   </div>
                   <div class="serv-innercol2-yellow">
-                    <img class="icono-cruz" src="Images/icono-mas.png" alt="Mas" />
+                    <img
+                      class="icono-cruz"
+                      src="Images/icono-mas.png"
+                      alt="Mas"
+                    />
                   </div>
                 </div>
                 <div class="serv-innerrow2-yellow">
@@ -265,7 +270,11 @@
                     />
                   </div>
                   <div class="serv-innercol2-green">
-                    <img class="icono-cruz" src="Images/icono-mas.png" alt="Mas" />
+                    <img
+                      class="icono-cruz"
+                      src="Images/icono-mas.png"
+                      alt="Mas"
+                    />
                   </div>
                 </div>
                 <div class="serv-innerrow2-green">
@@ -284,7 +293,11 @@
                     />
                   </div>
                   <div class="serv-innercol2-blue">
-                    <img class="icono-cruz" src="Images/icono-mas.png" alt="Mas" />
+                    <img
+                      class="icono-cruz"
+                      src="Images/icono-mas.png"
+                      alt="Mas"
+                    />
                   </div>
                 </div>
                 <div class="serv-innerrow2-blue">
@@ -296,7 +309,7 @@
         </div>
       </div>
 
-<!-- NOTICIAS -->
+      <!-- NOTICIAS -->
 
       <div id="noticias" class="news-container">
         <div class="news-row-1">
@@ -338,7 +351,11 @@
                   width="20px"
                   alt="Arrow"
                 />
-                <p><span class="news-card1-verMas"><a class="news-verMas-link" href="">Ver más</a></span></p>
+                <p>
+                  <span class="news-card1-verMas"
+                    ><a class="news-verMas-link" href="">Ver más</a></span
+                  >
+                </p>
               </div>
             </div>
             <div class="news-card-2">
@@ -374,7 +391,11 @@
                   width="20px"
                   alt="Arrow"
                 />
-                <p><span class="news-card2-verMas"><a class="news-verMas-link" href="">Ver más</a></span></p>
+                <p>
+                  <span class="news-card2-verMas"
+                    ><a class="news-verMas-link" href="">Ver más</a></span
+                  >
+                </p>
               </div>
             </div>
           </div>
@@ -414,7 +435,11 @@
                   width="20px"
                   alt="Arrow"
                 />
-                <p><span class="news-card3-verMas"><a class="news-verMas-link" href="">Ver más</a></span></p>
+                <p>
+                  <span class="news-card3-verMas"
+                    ><a class="news-verMas-link" href="">Ver más</a></span
+                  >
+                </p>
               </div>
             </div>
             <div class="news-card-4">
@@ -450,7 +475,11 @@
                   width="20px"
                   alt=""
                 />
-                <p><span class="news-card4-verMas"><a class="news-verMas-link" href="">Ver más</a></span></p>
+                <p>
+                  <span class="news-card4-verMas"
+                    ><a class="news-verMas-link" href="">Ver más</a></span
+                  >
+                </p>
               </div>
             </div>
           </div>
@@ -498,7 +527,7 @@
               /><br />
             </div>
 
-            <div>
+            <div class="footer-message">
               <label for="subject">Mensaje</label><br />
               <input
                 class="footer-textarea"
@@ -523,19 +552,29 @@
           <div><img src="Images/logo-blanco.png" alt="Logo blanco" /></div>
           <div>
             <ul class="footer-list">
-              <li><a class="nav-link active" href="#nosotros">Nosotros</a></li>
-              <li><a class="nav-link active" href="#noticias">Noticias</a></li>
-              <li><a class="nav-link active" href="#footer-help">Contacto</a></li>
-              <li><a class="nav-link active" href="">Términos y condiciones</a></li>
+              <li><a class="nav-link" href="#nosotros">Nosotros</a></li>
+              <li><a class="nav-link" href="#noticias">Noticias</a></li>
+              <li><a class="nav-link" href="#footer-help">Contacto</a></li>
+              <li><a class="nav-link" href="">Términos y condiciones</a></li>
             </ul>
           </div>
         </div>
         <div class="footer-social">
           <div><span>Seguinos!</span></div>
           <div class="footer-social-icons">
-            <a id="footer-facebook" href="https://es.wikipedia.org/wiki/Facebook"><i class="fab fa-facebook-f"></i></a>
-            <a id="footer-twitter" href="https://es.wikipedia.org/wiki/Twitter"><i class="fab fa-twitter"></i></a>
-            <a id="footer-instagram" href="https://es.wikipedia.org/wiki/Instagram"><i class="fab fa-instagram"></i></a>
+            <a
+              id="footer-facebook"
+              href="https://es.wikipedia.org/wiki/Facebook"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a id="footer-twitter" href="https://es.wikipedia.org/wiki/Twitter"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a
+              id="footer-instagram"
+              href="https://es.wikipedia.org/wiki/Instagram"
+              ><i class="fab fa-instagram"></i
+            ></a>
           </div>
         </div>
       </div>

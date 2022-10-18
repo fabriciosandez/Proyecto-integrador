@@ -6,22 +6,29 @@
 
 /***** NAVBAR *****/
 
-nav {
+.navbar {
   height: 75px;
+  position: relative;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #5227cc;
+}
+
+#myLinks {
+  margin-right: 280px;
 }
 
 .nav-image {
   max-height: 30px;
   padding-left: 200px;
-}
-
-#nav-list {
-  margin-left: 70px;
-}
-
-.nav-item {
-  padding-left: 110px;
-  font-weight: bold;
 }
 
 #nav-button {
@@ -40,6 +47,34 @@ nav {
   background-color: #7749f8;
   transform: translateY(-4%);
   filter: drop-shadow(0 0 10px #7749f8);
+}
+
+.nav-icon {
+  display: none;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  margin-right: 200px;
+}
+
+.nav-list-item {
+  display: inline;
+  padding-right: 120px;
+}
+
+.hamburger {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  transition: all 0.3s ease-in-out;
+  background-color: #101010;
 }
 
 /***** HEADER *****/
@@ -489,8 +524,7 @@ div.news-row-1 > p {
   align-items: center;
   list-style: none;
   font-size: 14px;
-  width:100%;
-
+  width: 100%;
 }
 
 .news-card1-ul1,
@@ -626,11 +660,11 @@ div.news-card-4 > .news-card-text {
   color: grey;
 }
 
-.news-row-3-carusel-navigation{
-  display:flex;
-  flex-direction:row;
-  justify-content:center;
-  list-style-type:none;
+.news-row-3-carusel-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
   padding-left: 0px;
 }
 .carusel-navigation-button {
@@ -644,7 +678,6 @@ div.news-card-4 > .news-card-text {
   font-size: 0;
   transition: transform 0.1s;
 }
-
 
 /***** FOOTER *****/
 
@@ -776,7 +809,84 @@ div.news-card-4 > .news-card-text {
 
 /***** RESPONSIVE DESIGN *****/
 
-@media only screen and (max-width: 390px) {.we-row1,
+@media only screen and (max-width: 390px) {
+  .nav-list {
+    position: fixed;
+    left: -100%;
+    top: 5rem;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+  }
+
+  .navbar {
+    flex-direction: column-reverse;
+    align-content: center;
+    height: 60px;
+  }
+
+  .nav-list.active {
+    left: 0;
+  }
+
+  .nav-list-item {
+    margin: 2.5rem 0;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .header {
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .nav-image {
+    max-height: 42px;
+    padding-top: 12px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+  }
+
+  #nav-button {
+    display: none;
+  }
+
+  .navbar a {
+    display: none;
+  }
+
+  .nav-icon {
+    display: block;
+  }
+
+  .we-row1,
   .we-row2 {
     flex-direction: column;
     max-width: 100%;
@@ -784,7 +894,9 @@ div.news-card-4 > .news-card-text {
     justify-items: center;
   }
 
-  .we-row1{flex-direction: column-reverse;}
+  .we-row1 {
+    flex-direction: column-reverse;
+  }
 
   .we-row1-col1,
   .we-row1-col2,
@@ -798,10 +910,36 @@ div.news-card-4 > .news-card-text {
   }
 
   .we-img-voluntarios,
-.we-img-oficina {
-  max-width: 90%;
-  height: 300px;
-}
+  .we-img-oficina {
+    max-width: 90%;
+    height: 300px;
+  }
+
+  .we-row1-col2 {
+    margin-left: 0px;
+  }
+  div.we-row1-col2 > p {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 4.5vmin;
+  }
+  .we-row2-col2 {
+    margin-right: 0px;
+  }
+  .we-row2-col1 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  div.we-row2-col1 > h2 {
+    padding-top: 15px;
+  }
+
+  div.we-row2-col1 > p {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 4.5vmin;
+  }
 
   .serv-row-squares {
     display: flex;
@@ -845,12 +983,26 @@ div.news-card-4 > .news-card-text {
     flex-direction: column;
     align-items: center;
     justify-items: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+
+  .footer-contact-image {
+    display: none;
   }
 
   .footer-form {
     flex-direction: column;
     align-items: center;
     justify-items: center;
+  }
+
+  .footer-message {
+    width: 321px;
+  }
+
+  .footer-textarea {
+    width: 321px;
   }
 
   .footer-nav {
