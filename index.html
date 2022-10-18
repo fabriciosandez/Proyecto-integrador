@@ -43,13 +43,13 @@
           <img class="nav-image" src="Images/logo.png" alt="Logo" />
           <ul id="nav-list" class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" href="#">Nosotros</a>
+              <a class="nav-link active" href="#nosotros">Nosotros</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Noticias</a>
+              <a class="nav-link active" href="#noticias">Noticias</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Ayuda</a>
+              <a class="nav-link active" href="#footer-help">Ayuda</a>
             </li>
           </ul>
           <button
@@ -155,10 +155,10 @@
       </div>
     </header>
 
-    <!-- MAIN -->
+    <!-- NOSOTROS -->
 
     <main>
-      <div class="we-container">
+      <div id="nosotros" class="we-container">
         <div class="we-row1">
           <div class="we-row1-col1">
             <img
@@ -200,6 +200,9 @@
           </div>
         </div>
       </div>
+
+ <!-- SERVICIOS -->
+
       <div class="services-container">
         <div class="serv-row-text">
           <h2>Encuentra las mejores oportunidades</h2>
@@ -220,9 +223,9 @@
                   <img
                     class="mano-corazoninner-icon"
                     src="Images/icono-mano.png"
-                    alt=""
+                    alt="Mano"
                   />
-                  <img class="icono-cruz" src="Images/icono-mas.png" alt="" />
+                  <img class="icono-cruz" src="Images/icono-mas.png" alt="Mas" />
                 </div>
                 <div class="serv-innerrow2-red">
                   <h3>Ser voluntario</h3>
@@ -237,11 +240,11 @@
                     <img
                       class="icono-mano-corazon"
                       src="Images/icono-mano-corazon.png"
-                      alt=""
+                      alt="Mano corazon"
                     />
                   </div>
                   <div class="serv-innercol2-yellow">
-                    <img class="icono-cruz" src="Images/icono-mas.png" alt="" />
+                    <img class="icono-cruz" src="Images/icono-mas.png" alt="Mas" />
                   </div>
                 </div>
                 <div class="serv-innerrow2-yellow">
@@ -251,7 +254,6 @@
             </div>
           </div>
           <div class="serv-row-squares-second-half">
-            <!--mitad columnas -->
             <div class="serv-row-squares-col3">
               <div class="serv-element3-green">
                 <div class="serv-innerrow1-green">
@@ -259,11 +261,11 @@
                     <img
                       class="serv-icono-reciclar"
                       src="Images/icono-reciclar.png"
-                      alt=""
+                      alt="Reciclar"
                     />
                   </div>
                   <div class="serv-innercol2-green">
-                    <img class="icono-cruz" src="Images/icono-mas.png" alt="" />
+                    <img class="icono-cruz" src="Images/icono-mas.png" alt="Mas" />
                   </div>
                 </div>
                 <div class="serv-innerrow2-green">
@@ -278,11 +280,11 @@
                     <img
                       class="serv-icono-llamLaborales"
                       src="Images/icono-maletin.png"
-                      alt=""
+                      alt="Portafolio"
                     />
                   </div>
                   <div class="serv-innercol2-blue">
-                    <img class="icono-cruz" src="Images/icono-mas.png" alt="" />
+                    <img class="icono-cruz" src="Images/icono-mas.png" alt="Mas" />
                   </div>
                 </div>
                 <div class="serv-innerrow2-blue">
@@ -293,10 +295,13 @@
           </div>
         </div>
       </div>
-      <div class="news-container">
+
+<!-- NOTICIAS -->
+
+      <div id="noticias" class="news-container">
         <div class="news-row-1">
           <h2>Noticias</h2>
-          <p>Ver todas</p>
+          <p><a class="news-view-all" href="">Ver todas</a></p>
         </div>
         <div class="news-row-2">
           <div class="news-cards-first-half">
@@ -309,15 +314,15 @@
               <div class="news-card1-ul">
                 <ul class="news-card1-ul1">
                   <li>
-                    <img src="Images/icono-calendario.png" alt="" />
+                    <img src="Images/icono-calendario.png" alt="Reloj" />
                   </li>
-                  <li>fecha</li>
+                  <li class="news-date-time">17/10/2022</li>
                 </ul>
                 <ul class="news-card1-ul2">
                   <li>
                     <img src="Images/icono-reloj.png" alt="" />
                   </li>
-                  <li>4 min</li>
+                  <li class="news-date-time">4 min</li>
                 </ul>
               </div>
               <h4>Fundapatas abre nuevo centro</h4>
@@ -331,9 +336,9 @@
                   src="Images/icono-flecha.png"
                   height="10px"
                   width="20px"
-                  alt=""
+                  alt="Arrow"
                 />
-                <p><span class="news-card1-verMas">Ver más</span></p>
+                <p><span class="news-card1-verMas"><a class="news-verMas-link" href="">Ver más</a></span></p>
               </div>
             </div>
             <div class="news-card-2">
@@ -345,33 +350,31 @@
               <div class="news-card2-ul">
                 <ul class="news-card2-ul1">
                   <li>
-                    <img src="Images/icono-calendario.png" alt="" />
+                    <img src="Images/icono-calendario.png" alt="Calendario" />
                   </li>
-                  <li>fecha</li>
+                  <li class="news-date-time">17/10/2022</li>
                 </ul>
                 <ul class="news-card2-ul2">
                   <li>
-                    <img src="Images/icono-reloj.png" alt="" />
+                    <img src="Images/icono-reloj.png" alt="Reloj" />
                   </li>
-                  <li>4 min</li>
+                  <li class="news-date-time">4 min</li>
                 </ul>
               </div>
-              <!-- <div class="news-card2-texts"> -->
               <h4>DIRECTV y TECHO inauguraron un espacio deportivo</h4>
               <p class="news-card-text">
                 Los vecinos del lugar recibieron con alegría la concreción de
                 este proyecto, que busca promover la socialización y la
                 actividad física.
               </p>
-              <!-- </div> -->
               <div class="news-card-verMas-elements">
                 <img
                   src="Images/icono-flecha.png"
                   height="10px"
                   width="20px"
-                  alt=""
+                  alt="Arrow"
                 />
-                <p><span class="news-card2-verMas">Ver más</span></p>
+                <p><span class="news-card2-verMas"><a class="news-verMas-link" href="">Ver más</a></span></p>
               </div>
             </div>
           </div>
@@ -385,15 +388,15 @@
               <div class="news-card3-ul">
                 <ul class="news-card3-ul1">
                   <li>
-                    <img src="Images/icono-calendario.png" alt="" />
+                    <img src="Images/icono-calendario.png" alt="Calendario" />
                   </li>
-                  <li>fecha</li>
+                  <li class="news-date-time">17/10/2022</li>
                 </ul>
                 <ul class="news-card3-ul2">
                   <li>
-                    <img src="Images/icono-reloj.png" alt="" />
+                    <img src="Images/icono-reloj.png" alt="Reloj" />
                   </li>
-                  <li>3 min</li>
+                  <li class="news-date-time">3 min</li>
                 </ul>
               </div>
 
@@ -409,9 +412,9 @@
                   src="Images/icono-flecha.png"
                   height="10px"
                   width="20px"
-                  alt=""
+                  alt="Arrow"
                 />
-                <p><span class="news-card3-verMas">Ver más</span></p>
+                <p><span class="news-card3-verMas"><a class="news-verMas-link" href="">Ver más</a></span></p>
               </div>
             </div>
             <div class="news-card-4">
@@ -423,15 +426,15 @@
               <div class="news-card4-ul">
                 <ul class="news-card4-ul1">
                   <li>
-                    <img src="Images/icono-calendario.png" alt="" />
+                    <img src="Images/icono-calendario.png" alt="Calendario" />
                   </li>
-                  <li>fecha</li>
+                  <li class="news-date-time">17/10/2022</li>
                 </ul>
                 <ul class="news-card4-ul2">
                   <li>
-                    <img src="Images/icono-reloj.png" alt="" />
+                    <img src="Images/icono-reloj.png" alt="Reloj" />
                   </li>
-                  <li>5 min</li>
+                  <li class="news-date-time">5 min</li>
                 </ul>
               </div>
 
@@ -447,7 +450,7 @@
                   width="20px"
                   alt=""
                 />
-                <p><span class="news-card4-verMas">Ver más</span></p>
+                <p><span class="news-card4-verMas"><a class="news-verMas-link" href="">Ver más</a></span></p>
               </div>
             </div>
           </div>
@@ -471,7 +474,7 @@
     <!-- FOOTER -->
 
     <footer>
-      <div class="footer-contact">
+      <div id="footer-help" class="footer-contact">
         <div class="footer-contact-image"></div>
         <div class="footer-contact-form">
           <h2>Contacto</h2>
@@ -520,25 +523,25 @@
           <div><img src="Images/logo-blanco.png" alt="Logo blanco" /></div>
           <div>
             <ul class="footer-list">
-              <li>Nosotros</li>
-              <li>Noticias</li>
-              <li>Contacto</li>
-              <li>Términos y condiciones</li>
+              <li><a class="nav-link active" href="#nosotros">Nosotros</a></li>
+              <li><a class="nav-link active" href="#noticias">Noticias</a></li>
+              <li><a class="nav-link active" href="#footer-help">Contacto</a></li>
+              <li><a class="nav-link active" href="">Términos y condiciones</a></li>
             </ul>
           </div>
         </div>
         <div class="footer-social">
           <div><span>Seguinos!</span></div>
           <div class="footer-social-icons">
-            <i id="footer-facebook" class="fab fa-facebook-f"></i>
-            <i id="footer-twitter" class="fab fa-twitter"></i>
-            <i class="fab fa-instagram"></i>
+            <a id="footer-facebook" href="https://es.wikipedia.org/wiki/Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a id="footer-twitter" href="https://es.wikipedia.org/wiki/Twitter"><i class="fab fa-twitter"></i></a>
+            <a id="footer-instagram" href="https://es.wikipedia.org/wiki/Instagram"><i class="fab fa-instagram"></i></a>
           </div>
         </div>
       </div>
 
       <div class="footer-copyright">
-        <div><span>Copyright &#169; 2021. All rights reserved.</span></div>
+        <div><span>Copyright &#169; 2022. All rights reserved.</span></div>
       </div>
     </footer>
 
