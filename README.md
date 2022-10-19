@@ -1,6 +1,6 @@
 # Proyecto integrador
 
-Institución: Senpai Academi
+Institución: Senpai Academy
 
 Tema: Réplica de una Lading page.
 
